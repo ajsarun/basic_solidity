@@ -13,5 +13,4 @@ contract Numbers {
     function getNumbers() public view returns (int[] memory) {
         return numbers;
     }
-        
 }
