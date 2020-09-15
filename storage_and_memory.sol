@@ -13,11 +13,5 @@ contract Numbers {
     function getNumbers() public view returns (int[] memory) {
         return numbers;
     }
-    
-    //int[] storage myArray = numbers; //use storage keyword make this variable points to the storage location of the storage 
-    //array. In other words, myArray points to the location that is used to store numbers then changing the data from myArray makes the value of 
-        //the numbers changes as well.
-        //myArray[0] = 3;
-        //int[] memory myArray = numbers; //but use memory the copy of numbers is copied to myArray, changing mayArray does not effect the numbers. 
-        //myArray[0] = 3;
+        
 }
