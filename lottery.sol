@@ -7,7 +7,7 @@ contract Lottery {
         manager = msg.sender;
     }
     function getBalance() public view returns (uint) {
-        address(this).balance;
+        return address(this).balance;
     }
     function enter() public payable {
         require (msg.value >= 0.01 ether);
